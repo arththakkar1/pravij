@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import LenisProvider from "@/components/lenis";
 
 export const metadata: Metadata = {
   title: "Pravij Earthing Technologies | Solar Accessories Manufacturer",
@@ -14,7 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full antialiased">
-      <body className="min-h-full flex flex-col">{children}</body>
+      <LenisProvider>
+        <body className="min-h-full flex flex-col">{children}</body>
+      </LenisProvider>
     </html>
   );
 }
