@@ -40,9 +40,7 @@ export default function Navbar() {
           <img
             src="/logo.png"
             alt="Pravij Logo"
-            width={220}
-            height={220}
-            className="object-contain"
+            className="h-12 w-auto object-contain"
           />
         </Link>
 
@@ -54,7 +52,7 @@ export default function Navbar() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`text-sm tracking-wide transition-colors ${
+                className={`text-base tracking-wide transition-colors ${
                   isActive
                     ? "text-zinc-900 font-medium"
                     : "text-zinc-500 hover:text-zinc-900 font-light"
@@ -70,7 +68,7 @@ export default function Navbar() {
         <div className="hidden md:flex items-center">
           <Link
             href="/contact"
-            className="text-sm font-medium bg-black text-white px-5 py-2 rounded-full hover:bg-black/90 transition-all shadow-sm shadow-green-600/20"
+            className="text-base font-medium bg-black text-white px-6 py-2.5 rounded-full hover:bg-black/90 transition-all shadow-sm shadow-green-600/20"
           >
             Contact us
           </Link>
