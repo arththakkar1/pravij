@@ -4,9 +4,9 @@ import { motion } from 'motion/react';
 
 export default function AboutPage() {
   const principles = [
-    { title: 'Absolute Integrity', text: 'We maintain complete transparency in our material composition and manufacturing processes.' },
-    { title: 'Continuous Refinement', text: 'Engineering is never finished; we constantly seek to optimize our product line for changing industry standards.' },
-    { title: 'Safety as a Baseline', text: 'Our components are the final line of defense. We engineer them as if lives depend on it, because they do.' }
+    { title: 'Vision', text: 'To become a leading & trusted brand, delivering innovative, reliable, high-performance products that support a sustainable energy future.' },
+    { title: 'Mission', text: 'To manufacture durable, high-quality products and provide complete electrical & earthing protection while maintaining quality, reliability, and timely delivery.' },
+    { title: 'Why Choose Us', text: 'Advanced manufacturing, high-quality products, timely delivery, advanced technology, complete solar solutions, safety & reliability, and customer commitment.' }
   ];
 
   return (
@@ -23,7 +23,7 @@ export default function AboutPage() {
           </motion.h1>
           <motion.p initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.2 }}
             className="text-xl font-light text-zinc-500 leading-relaxed max-w-2xl">
-            Pravij Earthing Technologies was founded with a singular focus: manufacturing the most reliable structural and electrical safety components for the Asian infrastructure sector.
+            Pravij Earthing Technologies manufactures and supplies solar accessories with a focus on safe, efficient, and reliable solar systems for the infrastructure sector.
           </motion.p>
         </div>
       </section>
@@ -32,12 +32,12 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-16">
             <div>
-              <h2 className="text-2xl font-medium text-zinc-900 mb-6 tracking-tight">Our methodology</h2>
+              <h2 className="text-2xl font-medium text-zinc-900 mb-6 tracking-tight">Our Focus</h2>
               <p className="text-zinc-500 font-light leading-relaxed mb-6">
-                From our facility in Ahmedabad, Gujarat, we control the entire lifecycle of our products—from raw material sourcing (copper, zinc, specialized polymers) to precision stamping and final assembly. 
+                From our facility in Ahmedabad, we focus on safe, efficient, and reliable solar systems. We provide connectivity solutions, protection systems, and comprehensive earthing solutions for sustainable energy.
               </p>
               <p className="text-zinc-500 font-light leading-relaxed">
-                By maintaining vertical integration, we ensure that every earthing kit, solar connector, and structural fastener meets rigorous DIN and ISO specifications before it reaches the field.
+                Our main product line includes MC4 Connectors, Branch Connectors, ACDB/DCDB Panels, DC & LA Cables, Isolation Switches, and complete Solar Earthing Kits, setting standards for safety and reliability.
               </p>
             </div>
             

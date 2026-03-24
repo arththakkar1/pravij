@@ -47,11 +47,12 @@ export default function Footer() {
               <span className="font-medium text-zinc-900 text-lg tracking-tight">Pravij</span>
             </Link>
             <p className="text-zinc-500 font-light text-sm leading-relaxed mb-6 max-w-sm">
-              Precision-engineered solar accessories and earthing solutions. Manufactured in Ahmedabad, Gujarat, setting the standard for quality and safety.
+              We take care grounding safety seriously. Manufacturing & supplying solar accessories for safe, efficient, and reliable solar systems.
             </p>
             <div className="text-sm text-zinc-500 font-light flex flex-col gap-2">
               <p>Shed 46, Vishala Platinum Industrial Estate</p>
-              <p>Odhav, Ahmedabad – 382415, India</p>
+              <p>Odhav – 382415</p>
+              <p className="mt-2">+91 98984 04514 / +91 98984 04574</p>
             </div>
           </div>
 

@@ -40,8 +40,7 @@ function HeroSection() {
           transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
           className="text-lg md:text-xl text-zinc-500 font-light max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          Premium earthing products, lightning protection, and solar
-          balance-of-system components built to strict international standards.
+          Manufacturing & supplying solar accessories for safe, efficient, and reliable solar systems. Providing complete electrical and earthing protection.
         </motion.p>
 
         <motion.div
@@ -80,18 +79,18 @@ function HighlightSection() {
   const highlights = [
     {
       icon: <ShieldCheck size={20} strokeWidth={1.5} />,
-      title: "Certified Reliability",
-      desc: "ISO 9001 and IEC 62561 compliant manufacturing processes ensuring defect-free deployments.",
+      title: "Complete Solar Solutions",
+      desc: "Providing complete electrical, earthing protection, and smart connectivity solutions for sustainable energy.",
     },
     {
       icon: <Cpu size={20} strokeWidth={1.5} />,
-      title: "Precision Engineered",
-      desc: "Every connector and fixture is milled to exact tolerances for seamless integration.",
+      title: "Advanced Manufacturing",
+      desc: "Using advanced manufacturing technology with customer focus to deliver durable and high-quality products.",
     },
     {
       icon: <Activity size={20} strokeWidth={1.5} />,
-      title: "End-to-End Safety",
-      desc: "From comprehensive ACDB panels to high-conductivity copper bonded earth rods.",
+      title: "Safety & Reliability",
+      desc: "Delivering innovative and safe solutions built for efficiency, on-time delivery, and maximum peace of mind.",
     },
   ];
 
@@ -128,22 +127,22 @@ function HighlightSection() {
 function MinimalProductPreview() {
   const categories = [
     {
-      name: "Earthing Solutions",
-      items: "Rods, Arresters, Compounds",
-      link: "/products",
-      img: "/images/earthing_rods.png",
-    },
-    {
-      name: "Solar Connectors",
-      items: "MC4, Y-Branch, Fuses",
+      name: "Electrical Items",
+      items: "MC4 Connectors, ACDB / DCDB, Earthing Kits",
       link: "/products",
       img: "/images/solar_connectors.png",
     },
     {
-      name: "Structure Components",
-      items: "Rails, Base Plates, Clamps",
+      name: "Structure Items",
+      items: "Bolts, Base Plates, Rails, Fasteners",
       link: "/products",
       img: "/images/solar_mounts.png",
+    },
+    {
+      name: "Cleaning Items",
+      items: "Pressure Pumps, Sprinklers, Brushes",
+      link: "/products",
+      img: "/images/earthing_rods.png",
     },
   ];
 

@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="antialiased">
+    <html lang="en" className="antialiased" data-scroll-behavior="smooth">
       <body className="flex flex-col min-h-screen bg-zinc-50">
         <LenisProvider>
           <Navbar />

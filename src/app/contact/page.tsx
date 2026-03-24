@@ -27,8 +27,8 @@ export default function ContactPage() {
                 <h3 className="text-sm font-medium text-zinc-900 mb-2">Corporate Headquarters & Manufacturing</h3>
                 <p className="text-zinc-500 font-light text-sm leading-relaxed mb-4">
                   Shed 46, Vishala Platinum Industrial Estate<br/>
-                  Odhav, Ahmedabad<br/>
-                  Gujarat 382415, India
+                  Odhav – 382415<br/>
+                  Gujarat, India
                 </p>
                 <div className="aspect-4/3 bg-zinc-200 rounded-xl overflow-hidden grayscale opacity-70 border border-zinc-100">
                   <img src="/images/industrial_map.png" alt="Map Location" className="w-full h-full object-cover" />
@@ -38,9 +38,9 @@ export default function ContactPage() {
               <div>
                 <h3 className="text-sm font-medium text-zinc-900 mb-2">Direct Contact</h3>
                 <div className="flex flex-col gap-2">
-                  <span className="text-zinc-500 font-light text-sm">pravijearthingtechnologies@gmail.com</span>
                   <span className="text-zinc-500 font-light text-sm">+91 98984 04514</span>
                   <span className="text-zinc-500 font-light text-sm">+91 98984 04574</span>
+                  <a href="http://www.pravijearthing.com" target="_blank" rel="noopener noreferrer" className="text-zinc-500 hover:text-emerald-600 font-light text-sm transition-colors mt-2 block">www.pravijearthing.com</a>
                 </div>
               </div>
             </div>

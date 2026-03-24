@@ -11,19 +11,20 @@ const highlights = [
 ];
 
 const industries = [
-  { name: "Commercial Lighting Infrastructures", img: "/images/industry_manufacturing.png" },
-  { name: "Marine and Coastal Operations", img: "/images/industrial_map.png" },
-  { name: "Pharmaceutical Clean Rooms", img: "/images/testing_lab.png" },
-  { name: "Sensitive Electronics Fabrication", img: "/images/certification_hero.png" },
-  { name: "Chemical Processing Plants", img: "/images/industry_manufacturing.png" },
-  { name: "Consumer Appliance Manufacturing", img: "/images/industry_manufacturing.png" },
-  { name: "Industrial Roofing Systems", img: "/images/solar_mounts.png" },
-  { name: "Oil & Gas Refineries", img: "/images/industry_manufacturing.png" },
-  { name: "High-Temperature Furnaces", img: "/images/industry_manufacturing.png" },
-  { name: "Commercial Interior Routing", img: "/images/products_hero.png" },
-  { name: "Railway and Transit Networks", img: "/images/industry_telecom.png" },
-  { name: "General Civil Engineering", img: "/images/industrial_map.png" },
-  { name: "Custom Panel Fabrication", img: "/images/prod_acdb_panel.png" }
+  { name: "Electrical towers", img: "/images/industry_manufacturing.png" },
+  { name: "Lighting industries", img: "/images/products_hero.png" },
+  { name: "Structural plants", img: "/images/industrial_map.png" },
+  { name: "Marine / swimming pool", img: "/images/testing_lab.png" },
+  { name: "Pharmaceutical machinery", img: "/images/certification_hero.png" },
+  { name: "Electrical & electronics", img: "/images/industry_manufacturing.png" },
+  { name: "Chemical machinery", img: "/images/industry_manufacturing.png" },
+  { name: "Home appliances & kitchenware", img: "/images/solar_mounts.png" },
+  { name: "Roofing / refineries", img: "/images/industry_manufacturing.png" },
+  { name: "Furnaces", img: "/images/industry_manufacturing.png" },
+  { name: "Solar structure", img: "/images/products_hero.png" },
+  { name: "Furniture & interiors", img: "/images/industry_telecom.png" },
+  { name: "Railway / metro", img: "/images/industrial_map.png" },
+  { name: "Engineering panel / junction box", img: "/images/prod_acdb_panel.png" }
 ];
 
 export default function IndustriesPage() {
