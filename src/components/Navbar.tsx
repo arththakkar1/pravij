@@ -37,19 +37,13 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
         {/* Minimal Logo */}
         <Link href="/" className="flex items-center gap-2 group">
-          <Hexagon
-            size={24}
-            strokeWidth={1.5}
-            className="text-zinc-900 group-hover:text-green-600 transition-colors"
+          <img
+            src="/logo.png"
+            alt="Pravij Logo"
+            width={220}
+            height={220}
+            className="object-contain"
           />
-          <div className="flex flex-col">
-            <span className="font-medium text-zinc-900 text-lg leading-none tracking-tight">
-              Pravij
-            </span>
-            <span className="text-[10px] text-zinc-500 font-normal uppercase tracking-widest mt-0.5">
-              Earthing Tech
-            </span>
-          </div>
         </Link>
 
         {/* Desktop Links */}
