@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import LenisProvider from "@/components/lenis";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Pravij Earthing Technologies | Solar Accessories Manufacturer",
@@ -14,10 +16,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full antialiased">
-      <LenisProvider>
-        <body className="min-h-full flex flex-col">{children}</body>
-      </LenisProvider>
+    <html lang="en" className="antialiased">
+      <body className="flex flex-col min-h-screen bg-zinc-50">
+        <LenisProvider>
+          <Navbar />
+          <main className="flex-1 w-full bg-white">
+            {children}
+          </main>
+          <Footer />
+        </LenisProvider>
+      </body>
     </html>
   );
 }

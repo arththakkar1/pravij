@@ -1,8 +1,6 @@
 'use client';
 
 import { motion } from 'motion/react';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
 
 export default function AboutPage() {
   const principles = [
@@ -13,8 +11,6 @@ export default function AboutPage() {
 
   return (
     <main className="min-h-screen bg-zinc-50">
-      <Navbar />
-
       <section className="pt-48 pb-24 bg-white border-b border-zinc-100">
         <div className="max-w-4xl mx-auto px-6">
           <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}
@@ -75,7 +71,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <Footer />
     </main>
   );
 }

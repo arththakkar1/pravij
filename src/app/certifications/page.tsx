@@ -1,8 +1,6 @@
 'use client';
 
 import { motion } from 'motion/react';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
 
 const certifications = [
   {
@@ -30,8 +28,6 @@ const certifications = [
 export default function CertificationsPage() {
   return (
     <main className="min-h-screen bg-zinc-50">
-      <Navbar />
-
       <section className="pt-48 pb-20 bg-white border-b border-zinc-100">
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex flex-col md:flex-row gap-16 items-center">
@@ -103,8 +99,6 @@ export default function CertificationsPage() {
 
         </div>
       </section>
-
-      <Footer />
     </main>
   );
 }

@@ -1,14 +1,10 @@
 'use client';
 
 import { motion } from 'motion/react';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
 
 export default function ContactPage() {
   return (
     <main className="min-h-screen bg-zinc-50">
-      <Navbar />
-
       <section className="pt-48 pb-20 bg-white border-b border-zinc-100">
         <div className="max-w-5xl mx-auto px-4">
           <motion.h1 initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}
@@ -88,8 +84,6 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-
-      <Footer />
     </main>
   );
 }

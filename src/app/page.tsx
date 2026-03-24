@@ -9,8 +9,6 @@ import {
   ChevronRight,
   Activity,
 } from "lucide-react";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 function HeroSection() {
   return (
@@ -262,12 +260,10 @@ function TechnicalSpecs() {
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-white">
-      <Navbar />
       <HeroSection />
       <HighlightSection />
       <MinimalProductPreview />
       <TechnicalSpecs />
-      <Footer />
     </main>
   );
 }

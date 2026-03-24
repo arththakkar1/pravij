@@ -29,7 +29,6 @@ const industries = [
 export default function IndustriesPage() {
   return (
     <main className="min-h-screen bg-zinc-50">
-      <Navbar />
 
       <section className="pt-48 pb-24 bg-white border-b border-zinc-100">
         <div className="max-w-6xl mx-auto px-6 text-center">
@@ -74,7 +73,6 @@ export default function IndustriesPage() {
         </div>
       </section>
 
-      <Footer />
     </main>
   );
 }
